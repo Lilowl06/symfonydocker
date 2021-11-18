@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo Test
+
+artifacts:
+  files:
+    - build/*
+    - mysql/*
+    - nuvola/*
+    - docker-compose.yml
